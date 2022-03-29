@@ -8,3 +8,5 @@ NetrwTreeListing*
 Session.vim
 build/
 compile_commands.json
+loader
+libplugin.so

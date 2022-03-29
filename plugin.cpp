@@ -3,7 +3,7 @@
 
 namespace MyPlugin {
     struct X{};
-    static auto create() {
+    static std::shared_ptr<X> create() {
         return std::make_shared<X>();
     }
 }

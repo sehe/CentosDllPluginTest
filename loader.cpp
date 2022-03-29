@@ -2,7 +2,7 @@
 #include <iostream>
 
 int main() {
-    boost::dll::library_info inf("libsotest.so");
+    boost::dll::library_info inf("libplugin.so");
     std::vector<std::string> s = inf.sections();
 
     auto found = (std::find(s.begin(), s.end(), "MySect") != s.end());
