@@ -1,0 +1,10 @@
+*.bin
+*.cmake
+*.o
+.*.sw?
+CMakeCache.txt
+CMakeFiles/
+NetrwTreeListing*
+Session.vim
+build/
+compile_commands.json
